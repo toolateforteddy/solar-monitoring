@@ -1,0 +1,4 @@
+[
+  {"eid": 704643328, "timestamp": 1762430400, "actEnergyDlvd": 10312345.678, "actEnergyRcvd": 1234.5, "apparentEnergy": 10500000.0, "instantaneousDemand": 4321.5, "activePower": 4321.5, "voltage": 241.2, "current": 18.1, "freq": 60.0},
+  {"eid": 704643584, "timestamp": 1762430400, "actEnergyDlvd": 4200000.25, "actEnergyRcvd": 5400000.75, "apparentEnergy": 9900000.0, "instantaneousDemand": -2900.0, "activePower": -2900.0, "voltage": 241.2, "current": 12.2, "freq": 60.0}
+]

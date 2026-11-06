@@ -1,0 +1,19 @@
+# Copy to config.toml (git-ignored) and fill in.
+
+[gateway]
+# IP address or hostname of the IQ Gateway (Envoy) on your LAN.
+host = "192.168.1.50"
+# File holding the gateway access token (a long JWT). Create it with:
+#   solar-collector token --config config.toml
+token_file = "gateway.token"
+
+[enlighten]
+# Only needed by the `token` command, to fetch a gateway token from Enphase.
+# Leave the password out to be prompted, or set ENLIGHTEN_PASSWORD.
+email = "you@example.com"
+
+[collector]
+poll_interval_s = 60
+db_path = "solar.db"
+# Optional: folder for `solar-collector backup`, e.g. a Google Drive folder.
+backup_dir = ""

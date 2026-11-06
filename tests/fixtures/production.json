@@ -1,0 +1,7 @@
+{
+  "production": [
+    {"type": "inverters", "activeCount": 28, "readingTime": 1762430400, "wNow": 4100, "whLifetime": 10298000}
+  ],
+  "consumption": [],
+  "storage": [{"type": "acb", "activeCount": 0, "readingTime": 0, "wNow": 0, "whNow": 0, "state": "idle"}]
+}
